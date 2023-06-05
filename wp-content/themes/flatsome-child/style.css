@@ -1,0 +1,160 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: UX Themes
+Template: flatsome
+Version: 3.0
+*/
+
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+@media only screen and (max-width: 48em) {
+  /*************** ADD MOBILE ONLY CSS HERE  ***************/
+}
+
+:root {
+  --primary: #820813;
+}
+
+.searchform .button.icon {
+  background: black !important;
+}
+
+#my-call-now {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 40px;
+  background: var(--primary);
+  border-radius: 0 20px 0 20px;
+  color: blanchedalmond;
+  display: inline-block;
+  margin: 20px 0;
+}
+
+.woocommerce-billing-fields p {
+  width: 100% !important;
+  margin-right: 0 !important;
+}
+
+.shop_table.shop_table_responsive.cart.woocommerce-cart-form__contents
+  thead
+  tr
+  td
+  .product-thumbnail {
+  display: flex;
+  align-items: flex-start;
+}
+
+.shop_table.shop_table_responsive.cart.woocommerce-cart-form__contents
+  thead
+  tr
+  th,
+.cart_totals th.product-name {
+  font-size: 13px !important;
+  font-weight: normal !important;
+  color: black !important;
+  border-bottom: 1px solid #e3e3e3 !important;
+}
+.shop_table.shop_table_responsive.cart.woocommerce-cart-form__contents
+  tbody
+  tr
+  td.product-name
+  a {
+  font-size: 14px !important;
+  font-weight: normal !important;
+  color: black !important;
+}
+.shop_table.shop_table_responsive.cart.woocommerce-cart-form__contents
+  tbody
+  tr
+  td.product-price
+  span {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  color: black !important;
+}
+
+.shop_table.shop_table_responsive.cart.woocommerce-cart-form__contents
+  tbody
+  tr
+  td.product-quantity
+  .quantity
+  .button.minus,
+.shop_table.shop_table_responsive.cart.woocommerce-cart-form__contents
+  tbody
+  tr
+  td.product-quantity
+  .quantity
+  .button.plus {
+  width: 38px;
+  height: 38px;
+  cursor: pointer;
+  background: #f5f6f9;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+.shop_table.shop_table_responsive.cart.woocommerce-cart-form__contents
+  tbody
+  tr
+  td.product-quantity
+  .quantity
+  input[type="number"] {
+  border: 1px solid #ededed;
+  width: 38px;
+  height: 38px;
+  overflow: hidden;
+  margin: 0 4px;
+}
+
+.shop_table .cart_item td.product-thumbnail{
+  position: relative;
+}
+.shop_table.shop_table_responsive.cart.woocommerce-cart-form__contents
+  tbody
+  tr
+  td
+  a.remove {
+  /* border: none; */
+  font-size: 25px !important;
+  color: black !important;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.select-resize-ghost,
+.select2-container .select2-choice,
+.select2-container .select2-selection,
+input[type="date"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="url"],
+select,
+textarea {
+  box-shadow: none;
+}
+
+.cart-container .row-divided > .col + .col:not(.large-12) {
+  border-left: none !important;
+}
+
+.cart-container .cart_totals {
+  background: #f5f6f9;
+  padding: 24px;
+  padding-bottom: 10px;
+}
+
+.shop_table .order-total th,
+.shop_table .order-total td {
+  border-bottom: none !important;
+}
