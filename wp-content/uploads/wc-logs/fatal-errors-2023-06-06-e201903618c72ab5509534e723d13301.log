@@ -1,0 +1,60 @@
+2023-06-06T04:49:46+00:00 CRITICAL Access level to Porto_Elementor_Section::get_html_tag() must be protected (as in class Elementor\Element_Section) or weaker in C:\xampp\htdocs\woo22test\wp-content\plugins\porto-functionality\elementor\elements\porto_section.php on line 468
+
+2023-06-06T04:49:58+00:00 CRITICAL Access level to Porto_Elementor_Section::get_html_tag() must be protected (as in class Elementor\Element_Section) or weaker in C:\xampp\htdocs\woo22test\wp-content\plugins\porto-functionality\elementor\elements\porto_section.php on line 468
+
+2023-06-06T04:50:03+00:00 CRITICAL Access level to Porto_Elementor_Section::get_html_tag() must be protected (as in class Elementor\Element_Section) or weaker in C:\xampp\htdocs\woo22test\wp-content\plugins\porto-functionality\elementor\elements\porto_section.php on line 468
+
+2023-06-06T04:53:39+00:00 CRITICAL Access level to Porto_Elementor_Section::get_html_tag() must be protected (as in class Elementor\Element_Section) or weaker in C:\xampp\htdocs\woo22test\wp-content\plugins\porto-functionality\elementor\elements\porto_section.php on line 468
+
+2023-06-06T06:06:41+00:00 CRITICAL Access level to Porto_Elementor_Section::get_html_tag() must be protected (as in class Elementor\Element_Section) or weaker in C:\xampp\htdocs\woo22test\wp-content\plugins\porto-functionality\elementor\elements\porto_section.php on line 468
+
+2023-06-06T06:07:27+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in C:\xampp\htdocs\woo22test\wp-content\plugins\elementor\core\upgrade\upgrades.php:792
+Stack trace:
+#0 C:\xampp\htdocs\woo22test\wp-content\plugins\elementor\core\upgrade\upgrades.php(1024): Elementor\Core\Upgrade\Upgrades::Elementor\Core\Upgrade\{closure}('802')
+#1 C:\xampp\htdocs\woo22test\wp-content\plugins\elementor\core\upgrade\upgrades.php(836): Elementor\Core\Upgrade\Upgrades::move_settings_to_kit(Object(Closure), Object(Elementor\Core\Upgrade\Updater), false)
+#2 [internal function]: Elementor\Core\Upgrade\Upgrades::_v_3_0_0_move_saved_colors_to_kit(Object(Elementor\Core\Upgrade\Updater), false)
+#3 C:\xampp\htdocs\woo22test\wp-content\plugins\elementor\core\upgrade\elementor-3-re-migrate-globals.php(123): call_user_func(Array, Object(Elementor\Core\Upgrade\Updater), false)
+#4 C:\xampp\htdocs\woo22test\wp-content\plugins\elementor\core\upgrade\elementor-3-re-migrate-globals.php(108): Elementor\Core\Upgrade\Elementor_3_Re_Migrate_Globals->run_ in C:\xampp\htdocs\woo22test\wp-content\plugins\elementor\core\upgrade\upgrades.php on line 792
+
+2023-06-06T06:08:38+00:00 CRITICAL Access level to Porto_Elementor_Section::get_html_tag() must be protected (as in class Elementor\Element_Section) or weaker in C:\xampp\htdocs\woo22test\wp-content\plugins\porto-functionality\elementor\elements\porto_section.php on line 468
+
+2023-06-06T06:09:59+00:00 CRITICAL Access level to Porto_Elementor_Section::get_html_tag() must be protected (as in class Elementor\Element_Section) or weaker in C:\xampp\htdocs\woo22test\wp-content\plugins\porto-functionality\elementor\elements\porto_section.php on line 468
+
+2023-06-06T06:37:57+00:00 CRITICAL Uncaught Error: Class 'ElementorPro\Modules\ThemeBuilder\Module' not found in C:\xampp\htdocs\woo22test\wp-content\themes\porto\inc\plugins\compatibility\class-porto-elementor-pro-compatibility.php:61
+Stack trace:
+#0 C:\xampp\htdocs\woo22test\wp-includes\class-wp-hook.php(308): Porto_Elementor_Pro_Compatibility->init('')
+#1 C:\xampp\htdocs\woo22test\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\woo22test\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\woo22test\wp-settings.php(623): do_action('init')
+#4 C:\xampp\htdocs\woo22test\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\woo22test\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\woo22test\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\woo22test\wp-content\themes\porto\inc\plugins\compatibility\class-porto-elementor-pro-compatibility.php on line 61
+
+2023-06-06T06:38:06+00:00 CRITICAL Uncaught Error: Class 'ElementorPro\Modules\ThemeBuilder\Module' not found in C:\xampp\htdocs\woo22test\wp-content\themes\porto\inc\plugins\compatibility\class-porto-elementor-pro-compatibility.php:61
+Stack trace:
+#0 C:\xampp\htdocs\woo22test\wp-includes\class-wp-hook.php(308): Porto_Elementor_Pro_Compatibility->init('')
+#1 C:\xampp\htdocs\woo22test\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\woo22test\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\woo22test\wp-settings.php(623): do_action('init')
+#4 C:\xampp\htdocs\woo22test\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\woo22test\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\woo22test\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\woo22test\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\woo22test\wp-content\themes\porto\inc\plugins\compatibility\class-porto-elementor-pro-compatibility.php on line 61
+
+2023-06-06T06:38:11+00:00 CRITICAL Uncaught Error: Class 'ElementorPro\Modules\ThemeBuilder\Module' not found in C:\xampp\htdocs\woo22test\wp-content\themes\porto\inc\plugins\compatibility\class-porto-elementor-pro-compatibility.php:61
+Stack trace:
+#0 C:\xampp\htdocs\woo22test\wp-includes\class-wp-hook.php(308): Porto_Elementor_Pro_Compatibility->init('')
+#1 C:\xampp\htdocs\woo22test\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\woo22test\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\woo22test\wp-settings.php(623): do_action('init')
+#4 C:\xampp\htdocs\woo22test\wp-config.php(97): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\woo22test\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\woo22test\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\woo22test\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\woo22test\wp-content\themes\porto\inc\plugins\compatibility\class-porto-elementor-pro-compatibility.php on line 61
+
